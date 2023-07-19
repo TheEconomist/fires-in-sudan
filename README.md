@@ -1,4 +1,3 @@
-# A satellite system to detect burning of human settlements
+# Analysis of fire data in Sudan
 
-Inputs: human settlement and FIRMS data
-Output: fires by settlement and day, and summary statistics based on such data
+This repository uses human settlement, FIRMS, and ACLED data to analyse violent events taking place in Sudan in 2023. To replicate the analysis from source files, please run 'scripts/combine_data.R', 'scripts/plot_data.R', and 'scripts/sudan_analysis_replication.R' in that order.
