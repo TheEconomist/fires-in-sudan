@@ -15,5 +15,5 @@ For any questions about how to use this data, or how to improve it, email sondre
 * [ACLED - The Armed Conflict Location & Event Data Project)](https://acleddata.com/) 
 * [GRID3 - Geo-Referenced and Demographic Data for Development](https://data.grid3.org/)
 
-# Suggested citation
+## Suggested citation
 The Economist and Solstad, Sondre (corresponding author), 2023. "Excess fires in Sudan". First published in the article "Crescent of fire", The Economist, July 22th issue, 2023.
