@@ -10,6 +10,8 @@ library(rnaturalearth)
 library(rnaturalearthdata)
 library(anytime)
 
+# To run this code, you first need a FIRMS API key, which should be placed in a file 'firms_api_key.csv'. It can be acquired here. https://firms.modaps.eosdis.nasa.gov/api/data_availability/ The api key should be returned as a string from the following command. as.character(read_csv('firms_api_key.csv')[2])
+
 # To replicate for a new country
 # Give country name
 # Download archive of old fires (FIRMS) and place them in folder "paste0('source-data/fire-archive-data/', iso3c, '/')
