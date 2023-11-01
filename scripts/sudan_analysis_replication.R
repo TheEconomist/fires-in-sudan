@@ -183,7 +183,7 @@ colnames(temp) <- c('acq_date', 'adm2_name', 'num_fires')
 fire_counts_small <- merge(fire_counts_small, temp, all=T)
 fire_counts_small$adm2_name[is.na(fire_counts_small$adm2_name)] <- '_unknown_'
 
-# Generated expected fire counts using a monthly fixed-effects model:
+# Generated expected fire counts using a weekly fixed-effects model:
 lm_fit <- lm(num_fires ~ as.factor(week(acq_date))*as.numeric(year(acq_date)), data =fire_counts_small[year(fire_counts_small$acq_date) %in% (year(Sys.Date())-1):(year(Sys.Date())-5), ])
 fire_counts_small$expected <- predict(newdata=fire_counts_small, lm_fit)
 
